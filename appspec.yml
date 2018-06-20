@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /root
+  - source: /Views/Home/Index.cshtml
+    destination: /
   
 hooks:
   BeforeInstall:
