@@ -1,10 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /index
-    destination: /var/www/html/
-  - source: /index
-    destination: /var/www/html/
+  - source: /
+    destination: /root
+  
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
