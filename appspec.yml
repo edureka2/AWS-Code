@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /Views/Home/Index.cshtml
+  - source: /Testing ASP/Views/Home/Index.cshtml
     destination: /
   
 hooks:
