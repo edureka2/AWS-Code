@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /Testing ASP/Views/Home/Index.cshtml
-    destination: /
+    destination: /var/www/html/Testing ASP/Views/Home/Index.cshtml
   
 hooks:
   BeforeInstall:
