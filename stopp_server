@@ -1,7 +1,0 @@
-#!/bin/bash
-
-ps cax | grep httpd
- echo "Process is running."
-if [ $? -eq 0 ] then
-  service httpd stop
-fi
