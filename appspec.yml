@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /var/www/html/Testing ASP/
+  - source: /TestingAsp/
+    destination: /var/www/html/
   
 hooks:
   BeforeInstall:
