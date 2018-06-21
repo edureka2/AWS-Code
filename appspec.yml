@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /TestingAsp/
+  - source: /Testing Asp/
     destination: /var/www/html/
   
 hooks:
